@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="./styles/error.css" />
   </head>
   <body class="page">
-    <main class="content">
+    <main class="content flex">
       <section class="result">
         <div class="result__video-container">
           <video src="" controls class="result__video" poster=""></video>
         </div>
-        <form class="search-form">
+        <form class="search-form flex">
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Город</h2>
             <label class="search-form__label">
@@ -31,7 +31,7 @@
           </fieldset>
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Время суток</h2>
-            <div class="search-form__checkbox-list">
+            <div class="search-form__checkbox-list flex">
               <label class="search-form__label">
                 <input
                   type="checkbox"
@@ -95,7 +95,7 @@
     <template class="cards-list-item-template">
       <li class="content__list-item">
         <a href="#0" class="content__card-link">
-          <article class="content__video-card">
+          <article class="content__video-card flex">
             <div class="content__video-card-description-container">
               <h2 class="content__video-card-title"></h2>
               <p class="content__video-card-description"></p>
