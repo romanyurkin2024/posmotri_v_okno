@@ -97,11 +97,6 @@ a {
   overflow: auto;
 }
 
-.preloader {
-  position: absolute;
-  inset: 0;
-}
-
 .content__list-item:not(:last-child) {
   margin-bottom: 32px;
 }
@@ -208,17 +203,17 @@ a {
   border: 1px solid #fff;
   margin-right: 5px;
   box-sizing: unset;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-form__pseudo-checkbox::after {
   content: "";
-  inset: 2px;
   display: block;
   background-color: #fff;
   width: 15px;
   height: 15px;
-  position: absolute;
 }
 
 .search-form__checkbox-list  .search-form__label:not(:first-child) {
