@@ -1,1 +1,1 @@
-[git@github.com:romanyurkin2024/posmotri_v_okno.git]
+https://github.com/romanyurkin2024/posmotri_v_okno.git
