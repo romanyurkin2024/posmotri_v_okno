@@ -1,2 +1,1 @@
-# Проект "Посмотри в окно"
-## Автор: Цой Роман
+git@github.com:romanyurkin2024/posmotri_v_okno.git
