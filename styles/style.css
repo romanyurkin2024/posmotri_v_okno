@@ -146,17 +146,14 @@ a {
   display: block;
 }
 
-.content__list-item:has(.content__card-link:focus) {
-  border: 1px solid #fff;
-  outline: none;
+.content__card-link:focus {
+  outline: 1px solid #fff;
+  margin: 2px;
+  display: block;
 }
 
 .content__card-link {
   cursor: pointer;
-}
-
-.content__card-link:focus {
-  outline: none;
 }
 
 .content__video-card{
