@@ -167,16 +167,17 @@ a {
   display: block;
 }
 
+.content__card-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
 .content__card-link:active {
   display: block;
   margin: 2px;
   outline: 1px solid transparent;
   background-color: #545050;
-}
-
-.content__card-link:hover {
-  text-decoration: underline;
-  text-decoration-color: #fff;
+  text-decoration: none;
 }
 
 .content__video-card {
