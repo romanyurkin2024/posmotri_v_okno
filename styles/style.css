@@ -148,6 +148,10 @@ a {
   color: #fff;
 }
 
+.content__video-card-description-container {
+  max-width: 195px;
+}
+
 .content__card-link.content__card-link_current {
   background-color: #545050;
   display: block;
@@ -198,7 +202,7 @@ a {
   width: 225px;
   min-height: 27px;
   background-color: transparent;
-  border: 0;
+  border: 1px solid transparent;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   outline: none;
@@ -273,8 +277,10 @@ a {
 }
 
 .search-form__pseudo-checkbox {
-  width: 19px;
-  height: 19px;
+  /* width: 19px;
+  height: 19px; */
+  width: 17px;
+  height: 17px;
   border: 1px solid #fff;
   margin-right: 5px;
   box-sizing: unset;
