@@ -65,11 +65,7 @@ a {
 .content {
   align-items: flex-end;
   width: 1140px;
-  justify-content: space-between;
-}
-
-.content__details {
-  width: 399px;
+  gap: 30px;
 }
 
 .result__video-container {
@@ -92,6 +88,7 @@ a {
 
 .content__list {
   height: 298px;
+  width: 416px;
   margin-top: 23px;
   position: relative;
   overflow: auto;
